@@ -24,4 +24,10 @@
     <PackageReference Include="BenchmarkDotNet" Version="0.13.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="katas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="katas\" />
+  </ItemGroup>
 </Project>
